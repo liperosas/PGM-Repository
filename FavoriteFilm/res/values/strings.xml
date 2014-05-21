@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Film List</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="filmTitle">@null</string>
+    <string name="filmRunningTimeLabel">Running Time:</string>
+    <string name="filmRunningTime">@null</string>
+    <string name="labelDirector">Director:</string>
+    <string name="filmDirector">@null</string>
+    <string name="filmTrailer">@null</string>
+    <string name="filmSynopsis">@null</string>
+    <string name="labelRunningTime">RunningTime:</string>
+    <string name="labelTrailer">Trailer:</string>
+    <string name="labelSynopsis">Synopsis:</string>
+    <string name="add_favorite">Add to Favorites</string>
+    <string name="title_activity_film_detail">Favorite List</string>
+    <string name="action_saveToFavorites">Save</string>
+    <string name="action_share">Share</string>
+    <string name="action_search">Search</string>
+    <string name="drawer_open">Menu</string>
+    <string name="drawer_close">Film List</string>
+
+    <string-array name="menu_options">
+        <item>Favoritos</item>
+        <item>VouPensarAinda</item>
+    </string-array>
+
+</resources>

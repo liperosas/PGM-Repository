@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/imgFilm"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/filmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/imgFilm"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/imgFilm"
+        android:text="@string/filmTitle"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmRunningTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filmTitle"
+        android:layout_marginTop="14dp"
+        android:layout_toRightOf="@+id/imgFilm"
+        android:text="@string/filmRunningTimeLabel"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmRunningTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/filmRunningTimeLabel"
+        android:layout_alignBottom="@+id/filmRunningTimeLabel"
+        android:layout_toRightOf="@+id/filmRunningTimeLabel"
+        android:text="@string/filmRunningTime"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+</RelativeLayout>

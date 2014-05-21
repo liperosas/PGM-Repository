@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/filmFragDetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="br.unibratec.favoritefilms.FilmDetailActivity" >
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView2"
+        android:text="@string/labelTrailer"
+        android:textSize="@dimen/labelDetail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:text="@string/labelSynopsis"
+        android:textSize="@dimen/labelDetail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_below="@+id/textView1"
+        android:text="@string/labelRunningTime"
+        android:textSize="@dimen/labelDetail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmDirector"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="@string/filmDirector"
+        android:textSize="@dimen/textDetail" />
+
+    <TextView
+        android:id="@+id/filmSynopsis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="@string/filmSynopsis"
+        android:textSize="@dimen/textDetail" />
+
+    <TextView
+        android:id="@+id/filmRunningTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_toRightOf="@+id/textView2"
+        android:text="@string/filmRunningTime"
+        android:textSize="@dimen/textDetail" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/filmTitle"
+        android:layout_below="@+id/filmTitle"
+        android:text="@string/labelDirector"
+        android:textSize="@dimen/labelDetail"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/filmTrailer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView4"
+        android:layout_alignBottom="@+id/textView4"
+        android:layout_toRightOf="@+id/textView4"
+        android:autoLink="web"
+        android:text="@string/filmTrailer"
+        android:textSize="@dimen/trailerDetail" />
+
+    <TextView
+        android:id="@+id/filmTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imgFilm"
+        android:text="@string/filmTitle"
+        android:textSize="@dimen/titleDetail"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgFilm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher" />
+
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="labelDetail">14sp</dimen>
+    <dimen name="textDetail">16sp</dimen>
+    <dimen name="trailerDetail">14sp</dimen>
+    <dimen name="titleDetail">22sp</dimen>
+
+</resources>
